@@ -4,33 +4,53 @@
 }
 
 .contactContainer {
-
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
 }
-
 .contactLeft {
-
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .contactRight {
-
+	flex: 1;
 }
 
 .contactTitle {
-
+	font-weight: 200;
 }
 
 .contactForm {
-    
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
 }
 
 .contactInput {
-
+	padding: 20px;
+	background-color: lightgray;
+	border: none;
+	border-radius: 5px;
 }
 
 .contactTextArea {
-
+	padding: 20px;
+	background-color: lightgray;
+	border: none;
+	border-radius: 5px;
 }
 
 .contactButton {
-
+	background-color: #da4ea2;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 20px;
 }

@@ -14,11 +14,12 @@ const Contact = () => {
 							<textarea
 								className="contactTextArea"
 								placeholder="Enquiry"
+								rows={10}
 							></textarea>
-                            <button className="contactButton"></button>
+							<button className="contactButton">Send</button>
 						</form>
 					</div>
-					<div className="contactRight">Send</div>
+					<div className="contactRight"></div>
 				</div>
 			</div>
 		</>
