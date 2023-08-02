@@ -1,4 +1,8 @@
 import React from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import Cube from "./Cube";
+
 import "../../public/styling/who.css";
 
 const Who = () => {
@@ -7,11 +11,12 @@ const Who = () => {
 			<div className="whoSection">
 				<div className="whoContainer">
 					<div className="whoLeft">
-						{/* <img
-							className="whoImage"
-							src="../public/Images/moon.png"
-							alt="moon image"
-						></img> */}
+						<Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
+							<OrbitControls enableZoom={false} autoRotate/>
+							<ambientLight intensity={1} />
+							<directionalLight position={[3, 2, 1]} />
+							<Cube />
+						</Canvas>
 					</div>
 					<div className="whoRight">
 						<h1 className="whoTitle">Think of Who</h1>
