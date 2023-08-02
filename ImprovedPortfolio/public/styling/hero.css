@@ -1,4 +1,4 @@
-.heroSection {
+/* .heroSection {
 	height: 100vh;
 	scroll-snap-align: center;
 	display: flex;
@@ -30,6 +30,7 @@
 
 .heroTitle {
 	font-size: 74px;
+	margin-bottom: 0;
 }
 
 .heroWhatIDo {
@@ -44,7 +45,7 @@
 
 .heroSubtitle {
 	color: #da4ea2;
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .heroDescription {
@@ -74,10 +75,11 @@
 	right: 0;
 	margin: auto;
 	animation: animate 2s infinite ease alternate;
+	pointer-events: none;
 }
 
 @keyframes animate {
 	100% {
 		transform: translateY(70px);
 	}
-}
+} */

@@ -19,16 +19,25 @@ const Who = () => {
 						</Canvas>
 					</div>
 					<div className="whoRight">
-						<h1 className="whoTitle">Think of Who</h1>
+						<h1 className="whoTitle">About My Work</h1>
 						<div className="whoWhatIDo">
 							<img
 								className="whoLine"
 								src="../public/Images/line.png"
 								alt="line"
 							></img>
-							<h2 className="whoSubtitle">Who I am</h2>
+							<h2 className="whoSubtitle">Technical Skills</h2>
 						</div>
-						<p className="whoDescription">Ball</p>
+						<ul className="whoList">
+							<li className="whoDescription">Typescript/Javascript</li>
+							<li className="whoDescription">React</li>
+							<li className="whoDescription">HTML/CSS</li>
+							<li className="whoDescription">SQL</li>
+							<li className="whoDescription">React Queries & Redux</li>
+							<li className="whoDescription">Github</li>
+							<li className="whoDescription">Vitest & Jest</li>
+							<li className="whoDescription">Python</li>
+						</ul>
 						<button className="whoButton">See Projects</button>
 					</div>
 				</div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../../public/styling/navBar.css";
+import NavBarLinks from "./NavBarLinks";
 function NavBar() {
 	return (
 		<>
@@ -9,7 +10,7 @@ function NavBar() {
 						<div>
 							<img
 								className="navLogo"
-								src="../public/Images/logo.png"
+								src="../public/Images/jordan-lowe-logo.png"
 								alt="Logo_Img"
 							></img>
 						</div>
@@ -18,17 +19,8 @@ function NavBar() {
 							<li className="navList">Who</li>
 							<li className="navList">Works</li>
 							<li className="navList">Contact Me</li>
+							<NavBarLinks />
 						</ul>
-					</div>
-					<div className="navIcons">
-						<div>
-							<img
-								className="navSearch"
-								src="../public/Images/search.png"
-								alt="Search Icon"
-							></img>
-							<button className="navButton">Hire Now</button>
-						</div>
 					</div>
 				</div>
 			</div>
