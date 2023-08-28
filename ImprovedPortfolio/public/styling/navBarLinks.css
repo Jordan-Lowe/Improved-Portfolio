@@ -1,0 +1,30 @@
+.navImages {
+	height: 6vh;
+	width: 4vw;
+}
+
+.navBarImg {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navImgList {
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 1vw;
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+}
+
+.githubLogo {
+	height: 6vh;
+	width: 3vw;
+}
+
+.navImgList:hover {
+	transform: scale(1.5);
+}

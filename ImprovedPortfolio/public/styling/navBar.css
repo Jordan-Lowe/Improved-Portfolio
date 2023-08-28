@@ -1,0 +1,52 @@
+.navBarSection {
+	display: flex;
+	justify-content: center;
+	width: 95%;
+}
+
+.navBarContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px 0px;
+}
+
+.navLinks {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+
+.navLogo {
+	padding: 5%;
+	height: 20vh;
+	width: 12vw;
+	filter: invert(100%);
+	z-index: 1;
+}
+
+.navUl {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+}
+
+.navList {
+	cursor: pointer;
+	padding: 18px;
+	margin-left: 0.8vw;
+	font-size: 2.5vh;
+	padding-top: 4%;
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+}
+
+.navList:hover {
+	transform: scale(1.25);
+}
+
+
+
+

@@ -1,0 +1,81 @@
+.whoSection {
+	height: 100vh;
+	scroll-snap-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.whoContainer {
+	height: 100vh;
+	scroll-snap-align: center;
+	width: 70vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.whoLeft {
+	flex: 1;
+}
+
+.whoRight {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	position: relative;
+}
+
+.whoTitle {
+	font-size: 74px;
+}
+
+.whoWhatIDo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.whoLine {
+	height: 15px;
+}
+
+.whoSubtitle {
+	color: #da4ea2;
+	font-size: 30px;
+}
+
+.whoList {
+	margin-top: 0;
+	list-style: none;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.whoDescription {
+	font-size: 25px;
+	color: lightgray;
+	margin-bottom: 10px;
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+}
+
+.whoDescription:hover {
+	transform-style: flat;
+	transform: scale(1.25);
+}
+
+.whoButton {
+	background-color: #da4ea2;
+	color: white;
+	font-weight: 500;
+	width: 120px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

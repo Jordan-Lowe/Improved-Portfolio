@@ -1,0 +1,57 @@
+.worksSection {
+	height: 100vh;
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.worksContainer {
+	width: 70vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.worksLeft {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.worksRight {
+	flex: 1;
+}
+
+.worksUl {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.worksListItems {
+	font-size: 100px;
+	font-weight: bold;
+	cursor: pointer;
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	position: relative;
+}
+
+.worksListItems:hover .afterItem {
+	animation: moveText 0.8s linear both;
+}
+
+@keyframes moveText {
+	100% {
+		width: 100%;
+	}
+}
+.afterItem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 0;
+	white-space: nowrap;
+	color: pink;
+}
